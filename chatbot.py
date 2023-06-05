@@ -1,6 +1,8 @@
+# Importer les librairies
 from telegram.ext import CommandHandler, Updater, MessageHandler, Filters
 
-TOKEN = "6286222141:AAH-s7IEQWY9N5R76PZFbmVKMQQ5eNsmBJk"
+# Ajouter le token
+TOKEN = "Insérer votre token par ici"
 
 def start(update, context):
     update.message.reply_text("""Bienvenue chez TKL Consulting! Je suis Akossiwa et je suis chargé de vous guider!
